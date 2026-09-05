@@ -1,10 +1,11 @@
 <div align="center">
-
+  
 # Parth Shah
 
-### AI Engineer & Data Systems Builder
+**Computer Engineering @ PICT**  
+**AI Systems · Data Engineering · Backend**
 
-Computer Engineering @ PICT, Pune · Building pipelines that turn raw data into real decisions
+Building end-to-end data pipelines and intelligent systems that handle real-world messiness.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white)](https://portfolio-website-liard-seven-68.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/parth-shah-26154a372/)
@@ -14,121 +15,112 @@ Computer Engineering @ PICT, Pune · Building pipelines that turn raw data into 
 
 ---
 
-### About
+### About Me
 
-I build at the intersection of AI, data engineering, and backend systems — not just to pass assignments, but to solve real problems. My work spans end-to-end data pipelines, LLM-backed applications, and algorithmic problem-solving, with a bias toward production-quality thinking over prototype-level code.
+I'm a second-year Computer Engineering student at **PICT, Pune** focused on building practical systems at the intersection of **data engineering, backend development, and applied AI**.
 
-Currently deepening my research on LLM calibration for Indic languages, and building **FinFlow** — a pipeline that semantically maps inconsistent bank statement schemas using sentence-transformer embeddings.
+I like working on problems where data is messy, schemas are inconsistent, and the system still needs to be reliable and usable. Most of my projects follow the full path:  
+**Ingestion → Transformation → Storage → Intelligence → Usable Output**
 
-- 🎓 B.Tech Computer Engineering, PICT Pune (2025–2029) — 9.85 CGPA
-- 🔬 Undergrad research on LLM calibration (IndicQA, Expected Calibration Error)
-- 📍 Open to AI Engineering / Data Engineering internships
+Currently building **FinFlow** — a financial data pipeline that uses semantic mapping, embeddings, and PostgreSQL/pgvector to handle inconsistent bank statements, UPI exports, and broker data.
+
+- 🎓 B.Tech Computer Engineering, PICT (2025–2029) · **9.85 CGPA**
+- 💻 **250+ LeetCode problems** · 1400+ contest rating
+- ⭐ **5★ HackerRank** in C++ & Problem Solving
+- 📍 Looking for **Software Engineering, Data Engineering, and Applied AI/ML** opportunities
 
 ---
 
 ### Tech Stack
 
-**Languages**
+**Languages**  
+`Python` `C++` `SQL`
 
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+**Data & Backend**  
+`PostgreSQL` `pgvector` `FastAPI` `Docker` `REST APIs` `ETL Pipelines`
 
-**AI / ML**
+**AI / ML**  
+`Machine Learning` `NLP` `LLM Applications` `Sentence Transformers` `Embeddings`
 
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![NLP](https://img.shields.io/badge/NLP-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![RAG](https://img.shields.io/badge/RAG-412991?style=flat-square&logo=openai&logoColor=white)
-![Sentence Transformers](https://img.shields.io/badge/Sentence%20Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![pgvector](https://img.shields.io/badge/pgvector-000000?style=flat-square&logo=postgresql&logoColor=white)
-
-**Backend & Data Engineering**
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![REST APIs](https://img.shields.io/badge/REST%20APIs-FF6C37?style=flat-square&logo=postman&logoColor=white)
-
-**Tools**
-
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
+**Tools**  
+`Git` `Streamlit` `Linux` `VS Code`
 
 ---
 
-### Projects
+### Featured Projects
 
-#### [Auto Schema Pipeline](https://github.com/parthrshah202-hash/auto-schema-pipeline) · Live
+#### 🔹 [Auto-Schema-Pipeline](https://github.com/parthrshah202-hash/auto-schema-pipeline)
+**End-to-end data pipeline**  
+CSV ingestion → automatic schema detection → PostgreSQL → AI-generated analytical SQL → interactive dashboards + PDF reports.
 
 <img src="assets/auto-schema-dashboard.png" width="700" alt="Auto Schema Pipeline dashboard"/>
 
-CSV upload → auto schema inference → Gemini-generated SQL queries → live dashboard with exportable PDF reports. Zero manual configuration.
-
-`Python` `FastAPI` `PostgreSQL` `Docker` `Gemini API`
-
-[Demo](https://auto-schema-pipeline.streamlit.app/) · [Code](https://github.com/parthrshah202-hash/auto-schema-pipeline)
-
-<br>
-
-#### [AI Coding Mentor](https://github.com/parthrshah202-hash/DSA_MENTOR) · Live
-
-<img src="assets/coding-mentor-dashboard.png" width="700" alt="AI Coding Mentor dashboard"/>
-
-A DSA hint engine that refuses to give direct answers — delivers layered, Socratic hints instead, so learners build real problem-solving ability rather than copy-pasting solutions.
-
-`Python` `Streamlit` `Gemini API`
-
-[Demo](https://dsamentor.streamlit.app/) · [Code](https://github.com/parthrshah202-hash/DSA_MENTOR)
-
-<br>
-
-#### [Log Data Pipeline](https://github.com/parthrshah202-hash/log-data-pipeline) · Live
-
-<img src="assets/logdata-dashboard.png" width="700" alt="Log Data Pipeline dashboard"/>
-
-Four-stage pipeline — ingestion → transformation → analysis → visualization — turning raw server logs into a nine-chart interactive dashboard with automated insight reports. Built freshman year to understand production data systems from the ground up.
-
-`Python` `Streamlit`
-
-[Demo](https://log-data-pipeline-3aicicf8mzcz2k2e2k4uch.streamlit.app/) · [Code](https://github.com/parthrshah202-hash/log-data-pipeline)
-
-<br>
-
-#### More
-
-| Project | Status | Stack | Links |
-|---|---|---|---|
-| **FinFlow** — semantic column mapping across bank/UPI/broker statement formats using sentence-transformer embeddings + pgvector | In Progress | `Python` `pgvector` `Sentence Transformers` `Streamlit` | — |
-| **Confidence Detection for LLMs** — estimating response confidence to flag uncertain/likely-incorrect LLM outputs before they reach the user | Research | `Python` `Machine Learning` `NLP` `LLM Evaluation` | — |
+Modular, open-source, and live.  
+`Python` `FastAPI` `PostgreSQL` `Docker` `Gemini API`  
+**[Live Demo](https://auto-schema-pipeline.streamlit.app/)**
 
 ---
 
-### GitHub Stats
+#### 🔹 FinFlow · In Progress
+**Financial data pipeline** for inconsistent real-world formats including bank statements, UPI exports, and broker data.  
 
-<div align="center">
+Uses semantic column mapping, sentence-transformer embeddings, and PostgreSQL/pgvector, designed to generalize across previously unseen schemas.  
+`Python` `PostgreSQL` `pgvector` `Sentence Transformers`
 
-<img src="https://github-readme-stats-seven-alpha-55.vercel.app/api?username=parthrshah202-hash&show_icons=true&hide_border=true" alt="GitHub Stats" height="165"/>
-<img src="https://streak-stats.demolab.com?user=parthrshah202-hash&hide_border=true" alt="GitHub Streak" height="165"/>
+---
 
-<img src="https://github-readme-stats-seven-alpha-55.vercel.app/api/top-langs/?username=parthrshah202-hash&layout=compact&hide_border=true" alt="Top Languages" height="165"/>
+#### 🔹 [AI Coding Mentor](https://github.com/parthrshah202-hash/DSA_MENTOR)
+**Socratic DSA mentor** that provides progressive hints instead of direct solutions.  
+Designed to help users reason through problems without immediately revealing the answer.
 
-</div>
+<img src="assets/coding-mentor-dashboard.png" width="700" alt="AI Coding Mentor dashboard"/>
+
+`Python` `Streamlit` `Gemini API`  
+**[Live Demo](https://dsamentor.streamlit.app/)**
+
+---
+
+#### 🔹 [Log Data Pipeline](https://github.com/parthrshah202-hash/log-data-pipeline)
+**Four-stage ETL pipeline:** Ingestion → Transformation → Analysis → Visualization.  
+Turns raw server logs into an interactive dashboard with automated insight reports.
+
+<img src="assets/logdata-dashboard.png" width="700" alt="Log Data Pipeline dashboard"/>
+
+`Python` `Streamlit`  
+**[Live Demo](https://log-data-pipeline-3aicicf8mzcz2k2e2k4uch.streamlit.app/)**
+
+---
+
+### Research
+
+**LLM Calibration for Indic Languages**  
+Evaluating how well model confidence aligns with actual prediction correctness on Indic language tasks.  
+Focus areas include **confidence estimation, Expected Calibration Error (ECE), and LLM evaluation**.
 
 ---
 
 ### Achievements
 
-- 200+ LeetCode problems solved · 1426 contest rating
-- 5-star rating in C++ and Problem Solving on HackerRank
-- Completed Microsoft AI Skills Fest — Azure AI foundations, cognitive APIs, model fine-tuning
-- Completed McKinsey Forward Program
+- 🏆 **250+ LeetCode problems** · 1400+ contest rating
+- ⭐ **5★ HackerRank** in C++ & Problem Solving
+- 🎓 **Oracle Agentic AI Foundations Associate** · 88%
+- 🏁 **Flipkart GRID 8.0** · Round 2
+- 🔬 **Google Big Code 2026** · Round 2
+- 📚 **Microsoft AI Skills Fest**
+- 💼 **McKinsey Forward Program**
 
 ---
 
+### Let's Connect
+
+I'm interested in **Software Engineering, Data Engineering, Applied AI/ML, and ML Infrastructure** roles.
+
+If you're working on data pipelines, intelligent systems, or backend infrastructure, I'd love to connect.
+
+🌐 [Portfolio](https://portfolio-website-liard-seven-68.vercel.app/)  
+💼 [LinkedIn](https://www.linkedin.com/in/parth-shah-26154a372/)  
+📧 [parthrshah202@gmail.com](mailto:parthrshah202@gmail.com)
+
 <div align="center">
-
-**Open to internships, research collaborations, and open-source contributions.**
-
+<em>Building systems that handle real data — not just clean demos.</em>
 </div>
